@@ -1,4 +1,5 @@
-# Fashion MNIST Classification Project [UCI MEng EECS 230] 
+# Fashion MNIST Classification Project 
+## [UCI MEng EECS 230] 
 This project aims to develop a machine learning model to classify images from the Fashion MNIST dataset, which includes various clothing items like t-shirts, trousers, bags, and shoes. The dataset is publicly available on [Kaggle](https://www.kaggle.com/datasets/zalando-research/fashionmnist).
 
 ## Project Overview  
