@@ -18,20 +18,48 @@ The Fashion MNIST dataset consists of 70,000 grayscale images in 10 categories, 
 - 8: Bag  
 - 9: Ankle boot  
 
+### Download and Place the Dataset  
+1. Download the Fashion MNIST dataset from Kaggle:  
+   [https://www.kaggle.com/datasets/zalando-research/fashionmnist](https://www.kaggle.com/datasets/zalando-research/fashionmnist)  
+
+2. After downloading, extract the dataset files. Ensure you have the following files:  
+   - `fashion-mnist_train.csv`  
+   - `fashion-mnist_test.csv`  
+
+3. Place the extracted files in the `dataset/` directory inside your project folder:  
+   ```
+   class_project/
+   ├── dataset/
+   │   ├── fashion-mnist_train.csv
+   │   ├── fashion-mnist_test.csv
+   ├── notebook/
+   │   ├── fashion_mnist_cnn_training.ipynb
+   ├── README.md
+   ├── .gitignore
+   ```
+
 ## Installation  
 1. Clone this repository:  
-   `git clone https://github.com/Richielee630/Fashion-MNIST-RLI.git`
-3. Install the necessary dependencies:  
-   `pip install -r requirements.txt`
+   ```bash
+   git clone https://github.com/Richielee630/Fashion-MNIST-RLI.git
+   ```
+2. Install the necessary dependencies:  
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage  
-1. **Data Preparation**: Download the Fashion MNIST dataset from Kaggle and place it in the `data/` directory.  
-2. **Training the Model**: Run the following command to start training:  
-   `python train_model.py`  
-3. **Evaluation**: After training, evaluate the model's performance on the test dataset:  
-   `python evaluate_model.py`  
-4. **Inference**: To classify a new image, use the inference script:  
-   `python infer.py --image_path path/to/image.png`
+1. **Data Preparation**: Ensure the Fashion MNIST dataset is placed in the `dataset/` directory as described above.  
+
+2. **Training and Evaluating the Model**: Open the Jupyter Notebook file located in the `notebook/` directory:
+   - Launch Jupyter Notebook:
+     ```bash
+     jupyter notebook
+     ```
+   - Navigate to `notebook/fashion_mnist__simple_cnn_training.ipynb` in the Jupyter interface.
+   - Follow the steps in the notebook to train, evaluate, and visualize the model's performance.
+
+3. **Inference**: Modify the last cell in the notebook to classify new images by loading the trained model and providing the path to your image.
 
 ## Model Architecture  
 This project will experiment with various model architectures, including Convolutional Neural Networks (CNNs), to improve classification accuracy.
@@ -46,4 +74,3 @@ We will track and document accuracy, loss, and other relevant metrics to evaluat
 
 ## Acknowledgments  
 Special thanks to Zalando Research for providing the Fashion MNIST dataset.
-
