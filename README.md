@@ -35,7 +35,7 @@ pip install torch torchvision matplotlib seaborn scikit-learn numpy
 ## Installation  
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/Richielee630/Fashion-MNIST-RLI.git
+   git clone https://github.com/Richielee630/EECS_230P_final_project.git
    ```
 <!-- 2. Install the necessary dependencies:  
    ```bash
