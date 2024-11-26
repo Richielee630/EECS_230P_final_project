@@ -18,6 +18,30 @@ The Fashion MNIST dataset consists of 70,000 grayscale images in 10 categories, 
 - 8: Bag  
 - 9: Ankle boot  
 
+## Requirements
+To run this project, you need the following Python libraries:
+
+- `torch`: For building and training the neural network.
+- `torchvision`: For dataset transformations and utilities.
+- `matplotlib`: For visualizing training/validation loss and accuracy.
+- `seaborn`: For plotting the confusion matrix.
+- `scikit-learn`: For generating the classification report and confusion matrix.
+- `numpy`: For numerical computations.
+
+Install all dependencies using the command:
+```bash
+pip install torch torchvision matplotlib seaborn scikit-learn numpy
+
+## Installation  
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/Richielee630/Fashion-MNIST-RLI.git
+   ```
+<!-- 2. Install the necessary dependencies:  
+   ```bash
+   pip install -r requirements.txt
+   ``` -->
+
 ### Download and Place the Dataset  
 1. Download the Fashion MNIST dataset from Kaggle:  
    [https://www.kaggle.com/datasets/zalando-research/fashionmnist](https://www.kaggle.com/datasets/zalando-research/fashionmnist)  
@@ -36,16 +60,6 @@ The Fashion MNIST dataset consists of 70,000 grayscale images in 10 categories, 
    │   ├── fashion_mnist_cnn_training.ipynb
    ├── README.md
    ├── .gitignore
-   ```
-
-## Installation  
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/Richielee630/Fashion-MNIST-RLI.git
-   ```
-2. Install the necessary dependencies:  
-   ```bash
-   pip install -r requirements.txt
    ```
 
 ## Usage  
